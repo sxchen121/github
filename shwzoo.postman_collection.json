@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "80b44624-e126-4d2b-989b-f45df745827d",
+		"name": "shwzoo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "shwzoo_login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "txtUserName",
+							"value": "sxchen121@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "txtPassword",
+							"value": "stonely121",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://www.shwzoo.com/tools/submit_ajax.ashx?action=user_login ",
+					"protocol": "http",
+					"host": [
+						"www",
+						"shwzoo",
+						"com"
+					],
+					"path": [
+						"tools",
+						"submit_ajax.ashx"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "user_login "
+						}
+					]
+				},
+				"description": "shwzoo_login"
+			},
+			"response": []
+		}
+	]
+}
